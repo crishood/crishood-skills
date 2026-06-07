@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/sircrishood/Chia/crishood-skills/scripts/sync-to-claude.sh 2>/dev/null || true",
+            "statusMessage": "Syncing skills to ~/.claude/skills/..."
+          }
+        ]
+      }
+    ]
+  }
+}
